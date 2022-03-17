@@ -1,0 +1,16 @@
+{
+  "author": "Marina Ranenko",
+  "license": "MIT",
+  "main": "index.html",
+  "name": "url-parameters-2022",
+  "repository": "https://github.com/mranenko/url-parameters-2022.git",
+  "scripts": {
+    "server": "live-server --open='index.html?amount=3.14159&currency=BTC&location=Mexico' --port=2022",
+    "start": "yarn server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
